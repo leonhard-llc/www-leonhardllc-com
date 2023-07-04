@@ -1,0 +1,39 @@
+body {
+  color: #363636;
+  font-family: sans-serif;
+  font-weight: 400; /* regular */
+  /* Mobile */
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  body { /* Desktop */
+    text-align: start;
+  }
+}
+
+.page {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.5rem;
+  /* Mobile */
+}
+
+@media (min-width: 768px) {
+  .page { /* Desktop */
+    max-width: 992px;
+  }
+}
+
+h1, h2 {
+  margin-top: 1rem;
+}
+
+ol, ul {
+  text-align: start;
+}
+
+#legalese {
+  text-align: center;
+  color: gray;
+}
